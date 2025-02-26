@@ -4,7 +4,7 @@
 [![Demo Video](./assets/image.png)](./assets/Lift-Problem-Demo.mov)
 
 
-**Maybe the live link will not work as Netlify DNS verification is in process. Check after few minutes. Till then visit this [Netlify Link](barundev-lift-simulation.netlify.app)**
+**Maybe the live link will not work as Netlify DNS verification is in process. Check after few minutes. Till then visit this [Netlify Link](https://barundev-lift-simulation.netlify.app)**
 
 **[Live Link](https://lift.baruntiwary.dev)**
 
