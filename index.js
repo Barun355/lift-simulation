@@ -1,6 +1,15 @@
 // Default configuration
-const floorCount = 10;
-const liftCount = 5;
+
+let floorCount = 10;
+let liftCount = 5;
+
+const input = prompt(
+  "Enter the Total No of floor and lift seprated by space. 10 5"
+);
+
+floorCount = input.split(" ")[0];
+liftCount = input.split(" ")[1];
+
 
 // html reference
 const building = document.getElementById("building");
@@ -57,8 +66,8 @@ function createFloors() {
     building.appendChild(floors[index]);
   }
 
-  const idxs = getNIndex(floorCount - 1)
-  
+  const idxs = getNIndex(floorCount - 1);
+
   // adding all the liftCount no of lifts in each floor
   for (let index = 0; index < liftCount; index++) {
     const floorIdx = idxs[index];
@@ -227,10 +236,10 @@ function getNIndex(n = floorCount) {
   const idxs = [];
 
   while (idxs.length < n) {
-    const id = getRandomIndx(0, n-1)
-    if (!idxs.includes(id)){
-      idxs.push(id)
+    const id = getRandomIndx(0, n - 1);
+    if (!idxs.includes(id)) {
+      idxs.push(id);
     }
   }
-  return idxs
+  return idxs;
 }

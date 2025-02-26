@@ -11,5 +11,5 @@
 # Features
 
 - Move the lift up or down.
-- No of Lift and Floors are fixed in a variable you can't change(upate will come soon.)
+- Dynamic total number of lift and floors.
 - Mobile Responsive.
