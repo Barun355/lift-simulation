@@ -3,17 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lift Simulation</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Lift Simulation Task</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        font-family: Ubuntu, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, Oxygen, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        height: 100vh;
+        width: 100%;
+      }
+
+      #root {
+        height: 100vh;
+        width: 100%;
+        padding: 4rem 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h1 {
+        font-size: 64px;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+    </style>
   </head>
   <body>
-    <div id="root" class="flex flex-col">
-      <h1>Lift Simulation</h1>
-      <div class="building" id="building">
+    <div id="root">
+      <h1>This project has 2 version</h1>
+      <p>I miss understood the task and build something different to the original task. But <q>Der aya durust aya</q> I understood my mistake and trying to solve the original problem/task.</p>
+      <div style="display: flex; gap: 2rem;">
+          <a href="./v1/index.html">My Version</a>
+          <a href="./v2/index.html">Original Question</a>
       </div>
     </div>
-
-
-    <script src="index.js"></script>
   </body>
 </html>
