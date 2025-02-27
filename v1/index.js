@@ -3,12 +3,12 @@
 let floorCount = 10;
 let liftCount = 5;
 
-const input = prompt(
-  "Enter the Total No of floor and lift seprated by space. 10 5"
-);
+// const input = prompt(
+//   "Enter the Total No of floor and lift seprated by space. 10 5"
+// );
 
-floorCount = input.split(" ")[0];
-liftCount = input.split(" ")[1];
+// floorCount = input.split(" ")[0];
+// liftCount = input.split(" ")[1];
 
 
 // html reference

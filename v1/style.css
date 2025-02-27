@@ -23,12 +23,13 @@ body {
 }
 
 #root > h1 {
-    text-align: center;
-    text-decoration: underline;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .flex {
   display: flex;
+  gap: 0.8rem;
 }
 
 .flex-col {
@@ -152,8 +153,8 @@ button {
 }
 
 .floor-count > span {
-    font-weight: bold;
-    font-size: 18px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 720px) {

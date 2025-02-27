@@ -13,3 +13,5 @@
 - Move the lift up or down.
 - Dynamic total number of lift and floors.
 - Mobile Responsive.
+
+> # Updated the UI for the original task.
